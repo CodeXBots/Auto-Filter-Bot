@@ -6,7 +6,7 @@ import openai
 openai.api_key = OPENAI_API
 
 @Client.on_message(filters.command("openai"))
-async def ask_question(client, message):
+async def openai(client, message):
     if message.chat.id != S_GROUP:
         btn = [[
             InlineKeyboardButton('Support Group', url="https://telegram.me/BotszSupport")
