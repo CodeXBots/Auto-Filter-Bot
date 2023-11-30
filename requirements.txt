@@ -41,3 +41,4 @@ aiohttp==3.8.1
 ytthumb
 YoutubeTags
 dnspython==2.3.0
+openai
