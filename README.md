@@ -49,7 +49,7 @@
 - [x] 𝐹𝑖𝑙𝑒 𝑆𝑡𝑜𝑟𝑒
 - [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
 - [x] [𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...](https://telegram.me/NobiDeveloper/1055)
-* 𝑌𝑜𝑢 𝑤𝑖𝑙𝑙 𝑓𝑖𝑛𝑑 𝑡ℎ𝑖𝑠 𝑏𝑜𝑡 𝑜𝑛 𝑡𝑒𝑙𝑒𝑔𝑟𝑎𝑚 𝑎𝑠 <b><a href='https://telegram.me/Nobita-Filter-Bot'>ɴᴏʙɪᴛᴀ ꜰɪʟᴛᴇʀ ʙᴏᴛ</a></b>
+* [@Nobita-Filter-Bot](https://telegram.me/Nobita-Filter-Bot)
 * 𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.me/BotszList'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
 
 
@@ -117,7 +117,7 @@
 
 <details>
 <summary><h3>
-𝐷𝑒𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡 𝑀𝑒𝑡ℎ𝑜𝑑
+  𝐷𝑒𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡 𝑀𝑒𝑡ℎ𝑜𝑑
 </h3></summary>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
