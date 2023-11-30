@@ -47,6 +47,12 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 # This is required for the plugins involving the file system.
 TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 
+# Open AI
+OPENAI_API = environ.get('OPENAI_API', '')
+if len(OPENAI_API) == 0:
+    logging.error('OPENAI_API is missing, exiting now')
+    exit()
+
 # Command
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
