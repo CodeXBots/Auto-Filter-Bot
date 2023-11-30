@@ -1,4 +1,4 @@
-import re
+import re, logging
 from os import environ
 from Script import script
 from dotenv import load_dotenv
@@ -48,9 +48,9 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 
 # Open AI
-OPENAI_API = environ.get('OPENAI_API', '')
+OPENAI_API = environ.get('OPENAI_API', '0')
 if len(OPENAI_API) == 0:
-    logging.error('OPENAI_API is missing, exiting now')
+    logging.warning('OPENAI_API is empty')
     exit()
 
 # Command
