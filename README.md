@@ -5,7 +5,7 @@
   𝙉𝙤𝙗𝙞𝙩𝙖 𝙁𝙞𝙡𝙩𝙚𝙧 𝘽𝙤𝙩
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=NOBITA+FILTEE+BOT+!;CREATED+BY+NOBI+DEVELOPER!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=NOBITA+FILTER+BOT+!;CREATED+BY+NOBI+DEVELOPER!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
 </p>
 
 ## 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠
