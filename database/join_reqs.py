@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
-
 import motor.motor_asyncio
 from info import REQ_CHANNEL
 
