@@ -1,7 +1,6 @@
 import logging
 import logging.config
 
-# Get logging configurations
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
@@ -18,8 +17,8 @@ from pyrogram import types
 from Script import script 
 from datetime import date, datetime 
 import pytz
-from plugins import web_server
 from aiohttp import web
+from plugins import web_server
 
 class Bot(Client):
 
@@ -29,9 +28,9 @@ class Bot(Client):
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
-            workers=200,
+            workers=50,
             plugins={"root": "plugins"},
-            sleep_threshold=10,
+            sleep_threshold=5,
         )
 
     async def start(self):
@@ -52,10 +51,11 @@ class Bot(Client):
         today = date.today()
         now = datetime.now(tz)
         time = now.strftime("%H:%M:%S %p")
+        await self.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
         app = web.AppRunner(await web_server())
         await app.setup()
-        await web.TCPSite(app, "0.0.0.0", "8080").start()
-        await self.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
+        bind_address = "0.0.0.0"
+        await web.TCPSite(app, bind_address, PORT).start()
 
     async def stop(self, *args):
         await super().stop()
