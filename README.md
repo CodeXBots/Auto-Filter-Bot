@@ -49,7 +49,7 @@
 - [x] 𝐹𝑖𝑙𝑒 𝑆𝑡𝑜𝑟𝑒
 - [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
 - [x] [𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...](https://telegram.me/NobiDeveloper/1055)
-* [@Nobita-Filter-Bot](https://telegram.dog/Nobita-Filter-Bot)
+* [@Nobita-Filter-Bot](https://telegram.me/Nobita-Filter-Bot)
 * 𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.me/BotszList'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
 
 
@@ -122,25 +122,25 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://github.com/NobiDeveloper/Nobita-Filter-Bot">
+<p align="center"><a href="https://github.com/NobiDeveloper/Nobita-Filter-Bot/tree/stream">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy On Heroku">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ 」─
 </h3>
-<p align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/NobiDeveloper/Nobita-Filter-Bot&branch=main&name=Nobita-Filter-Bot">
+<p align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/NobiDeveloper/Nobita-Filter-Bot&branch=stream&name=Nobita-Filter-Bot">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy On Koyeb">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 」─
 </h3>
-<p align="center"><a href="https://railway.app/deploy?template=https://github.com/NobiDeveloper/Nobita-Filter-Bot"">
+<p align="center"><a href="https://railway.app/deploy?template=https://github.com/NobiDeveloper/Nobita-Filter-Bot/tree/stream">
      <img height="45px" src="https://railway.app/button.svg">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴇɴᴅᴇʀ 」─
 </h3>
-<p align="center"><a href="https://render.com/deploy?repo=https://github.com/NobiDeveloper/Nobita-Filter-Bot">
+<p align="center"><a href="https://render.com/deploy?repo=https://github.com/NobiDeveloper/Nobita-Filter-Bot/tree/stream">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a></p>
 <h3 align="center">
@@ -148,7 +148,7 @@
 </h3>
 <p>
 <pre>
-git clone https://github.com/NobiDeveloper/Nobita-Filter-Bot
+git clone https://github.com/NobiDeveloper/Nobita-Filter-Bot/tree/stream
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
