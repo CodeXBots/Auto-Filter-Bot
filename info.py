@@ -16,9 +16,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID'))
-API_HASH = environ.get('API_HASH')
-BOT_TOKEN = environ.get('BOT_TOKEN')
+API_ID = int(environ.get('API_ID','16229284'))
+API_HASH = environ.get('API_HASH','ebd1fead3cc15343bea10b5c164165ba')
+BOT_TOKEN = environ.get('BOT_TOKEN','6625397723:AAEoy65BeAo044qt_jGcBS6pIEFd8cz_WN8')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -30,8 +30,8 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/61ef9818986cef95
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/61ef9818986cef9554017.jpg")
 
 # Admins, Channels & User
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1103137195').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002007622300').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP')
@@ -57,7 +57,7 @@ if len(OPENAI_API) == 0:
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://monitgmoni:MoniTG007@cluster0.bxwiejd.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Nobideveloper")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -79,10 +79,10 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
 IS_VERIFY = bool(environ.get('IS_VERIFY', False))
-VERIFY2_URL = environ.get('VERIFY2_URL', "tnshort.net")
-VERIFY2_API = environ.get('VERIFY2_API', "0c8ebd63bfe9f67f9970b8767498ff60316b9b03")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Onepagelink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '8c09653e5c38f84d1b76ad3197c5a023e53b494d')
+VERIFY2_URL = environ.get('VERIFY2_URL', "onepagelink.in")
+VERIFY2_API = environ.get('VERIFY2_API', "88860a074bf831cf78e2e7dfbade22eb05a5c2fb")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '0e8a86b9c1c70a8ee2593d491983f077446b9695')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
@@ -111,7 +111,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002007622300')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
