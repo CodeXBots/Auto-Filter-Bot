@@ -13,7 +13,7 @@ async def autoapprove(client, message: ChatJoinRequest):
     await client.approve_chat_join_request(chat_id=chat.id, user_id=user.id)
     if APPROVED == "on":
         buttons = [[ 
-            InlineKeyboardButton('🎪  ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ʏᴛ ᴄʜᴀɴɴᴇʟ  🎪', url=f'https://youtube.com/@NobiDeveloper')
+            InlineKeyboardButton('🎪  ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ʏᴛ ᴄʜᴀɴɴᴇʟ  🎪', url=f'https://youtube.com/@SecurityInsiders?si=LCUk780KfaG0J8fS')
             
         ]]
         markup = InlineKeyboardMarkup(buttons)
