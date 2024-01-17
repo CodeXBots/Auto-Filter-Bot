@@ -22,10 +22,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN')
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/61ef9818986cef9554017.jpg https://telegra.ph/file/4696ff67a5bae3ea92c14.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/61ef9818986cef9554017.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/61ef9818986cef9554017.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/61ef9818986cef9554017.jpg")
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/178cdc8949cbdec22a09b.jpg https://te.legra.ph/file/566b42c0a79f2b8f2b4dc.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/2f1eb181dc8a2a71069d6.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/7a33a77e068dc3731aa26.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -44,7 +44,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Nobita")
+DATABASE_NAME = environ.get('DATABASE_NAME', "panda")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # stickers
@@ -64,7 +64,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "8")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+25ie__X-4VM1MTE1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/PandaSupportgroup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+25ie__X-4VM1MTE1')
 MSG_ALRT = environ.get('MSG_ALRT', 'ꜱʜᴀʀᴇ  ᴀɴᴅ  ꜱᴜᴘᴘᴏʀᴛ  ᴜꜱ')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
