@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/NobiDeveloper/Nobita-Filter-Bot",
-    "repository": https://github.com/NobiDeveloper/Nobita-Filter-Bot",
+    "repository": "https://github.com/NobiDeveloper/Nobita-Filter-Bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
