@@ -1406,7 +1406,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ʜᴇʟᴘ', url='https://telegram.me/BotszSupport')
+            InlineKeyboardButton('ʜᴇʟᴘ', url='https://telegram.me/NobiDeveloperSupport')
             ]]
             await client.edit_message_media(
                 query.message.chat.id, 
