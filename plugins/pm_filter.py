@@ -1652,7 +1652,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>┏🎪 ᴛɪᴛɪʟᴇ :  {search}\n┣🤴 ᴀsᴋᴇᴅ ʙʏ : {message.from_user.mention}\n┣⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://telegram.me/bugbountyhunt'>Security Panda</a>\n┗🍁 ᴄʜᴀɴɴᴇʟ : <a href='https://telegram.me/MovieVillaYT'>ᴍᴏᴠɪᴇᴠɪʟʟᴀ​​</a>\n\n⚠️  ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ  🗑️\n\n❇️ ʙʏ : {message.chat.title}</b>"
+        cap = f"<b>┏🎪 ᴛɪᴛɪʟᴇ :  {search}\n┣🤴 ᴀsᴋᴇᴅ ʙʏ : {message.from_user.mention}\n┣⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://telegram.me/bugbountyhunt'>Security Panda</a>\n┗🍁 ᴄʜᴀɴɴᴇʟ : <a href='https://telegram.me/movies_all_HUb'>Film channel</a>\n\n⚠️  ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ  🗑️\n\n❇️ ʙʏ : {message.chat.title}</b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
