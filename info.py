@@ -87,7 +87,7 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 LANGUAGES = ["hindi", "hin", "tamil", "tam", "telugu", "tel", "english", "eng", "kannada", "kan", "malayalam", "mal"]
-TUTORIAL = environ.get('TUTORIAL', 'https://youtube.com/@SecurityInsiders?si=LCUk780KfaG0J8fS')
+TUTORIAL = environ.get('TUTORIAL', 'https://www.youtube.com/watch?v=gXomsw5nogo')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
