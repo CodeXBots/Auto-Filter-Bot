@@ -115,7 +115,7 @@
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/NobiDeveloper/Nobita-Filter-Bot/blob/master/info.py) for more optional variables
+* Check [info.py](https://github.com/NobiDeveloper/Nobita-Filter-Bot/blob/main/info.py) for more optional variables
 
 
 <details>
