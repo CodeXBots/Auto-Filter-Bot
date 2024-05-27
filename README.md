@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/61ef9818986cef9554017.jpg" alt="NobiDeveloper Logo">
+  <img src="https://graph.org/file/9a02d463b2715203215fb.jpg" alt="NobiDeveloper Logo">
 </p>
 <h1 align="center">
   𝙉𝙤𝙗𝙞𝙩𝙖 𝙁𝙞𝙡𝙩𝙚𝙧 𝘽𝙤𝙩
