@@ -23,7 +23,9 @@
 - Advance spell check.
 - Set Log channel
 - stream Or Download features for premium users.
-- Auto delete 
+- Auto delete
+- Different Font available.
+- Media to link feature.
 - Fully modified repo
 - Deploy To Koyeb + Heroku + Railway.
 - Developer Service 24x7.
