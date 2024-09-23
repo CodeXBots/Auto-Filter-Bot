@@ -68,6 +68,8 @@ fsub - To set your force subscribe channel
 nofsub - To remove force sub channel
 ginfo - To check your groupddetails
 index - To index files in bot
+upload - To convert media into link
+font - To change font style
 shortlink2 - To set shortner for 2nd verify
 shortlink3 - To set shortner for 3rd verify
 time2 - To set 2nd shortner verify time
