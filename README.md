@@ -23,6 +23,7 @@
 - Button & Link mode.
 - streaming feature.
 - Advance spell check.
+- Set Custom IMDB template
 - No shortlinks for premium users
 - Set custom Log channel
 - Set custom file caption
