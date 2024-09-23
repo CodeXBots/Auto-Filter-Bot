@@ -10,9 +10,19 @@
 
 <details><summary>Tap On Me For Bot Features</summary>
 
+- shortner.
+- verification.
+- 3 shortner for verification.
+- 3 tutorial for verification.
+- set verification time.
 - Connect multiple channel
 - Set fsub
-- No telegram message length limit
+- Premium users feature.
+- Button & Text mode.
+- streaming feature.
+- Advance spell check.
+- Set Log channel
+- stream Or Download features for premium users.
 - Auto delete 
 - Fully modified repo
 - Deploy To Koyeb + Heroku + Railway.
