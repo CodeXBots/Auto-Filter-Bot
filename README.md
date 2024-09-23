@@ -10,21 +10,23 @@
 
 <details><summary>Tap On Me For Bot Features</summary>
 
-- shortner.
-- verification.
+- Shortner On/Off feature.
+- Verification On/Off feature.
 - 2 database feature.
 - 3 custom shortner for verification.
 - 3 custom tutorial for verification.
 - set custom verification time.
 - Connect multiple channel
-- Set custom fsub
+- Set custom fsub channel
+- Protect content On / Off Feature.
 - Premium users feature.
 - Button & Link mode.
 - streaming feature.
 - Advance spell check.
+- No shortlinks for premium users
 - Set custom Log channel
 - Set custom file caption
-- stream Or Download features for premium users.
+- stream/Download features for premium users.
 - Auto delete
 - Language feature.
 - Different Font available.
