@@ -12,18 +12,21 @@
 
 - shortner.
 - verification.
-- 3 shortner for verification.
-- 3 tutorial for verification.
-- set verification time.
+- 2 database feature.
+- 3 custom shortner for verification.
+- 3 custom tutorial for verification.
+- set custom verification time.
 - Connect multiple channel
-- Set fsub
+- Set custom fsub
 - Premium users feature.
-- Button & Text mode.
+- Button & Link mode.
 - streaming feature.
 - Advance spell check.
-- Set Log channel
+- Set custom Log channel
+- Set custom file caption
 - stream Or Download features for premium users.
 - Auto delete
+- Language feature.
 - Different Font available.
 - Media to link feature.
 - Fully modified repo
