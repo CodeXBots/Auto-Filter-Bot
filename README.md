@@ -58,12 +58,22 @@
 <b><details><summary>Tap On Me For Commands</summary>
 ```
 start - Check If I'm Alive or Not!
-id - Get Channel/Group Id
-verify - Send in group & wait for It To Accept
-connect - Link Database Channel/Group to search from
-disconnect - Disconnect Database
-fsub - Add a Force Subscribe Channel
-connections - Get connected channels list
+donate - To support the developer
+shortlink - To set shortner
+tutorial - To set tutorial video
+caption - To set custom file caption
+template - To set custom IMDB template
+fsub - To set your force subscribe channel
+nofsub - To remove force sub channel
+ginfo - To check your groupddetails
+index - To index files in bot
+shortlink2 - To set shortner for 2nd verify
+shortlink3 - To set shortner for 3rd verify
+time2 - To set 2nd shortner verify time
+time3 - To set 3rd shortner verify time
+log - To set custom log channel
+tutorial2 - To set 2nd shortner tutorial video
+tutorial3 - To set 3rd shortner tutorial video
 ```
 </b>
 </details>
