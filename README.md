@@ -30,7 +30,9 @@
 - stream/Download features for premium users.
 - Auto delete
 - Language feature.
-- Different Font available.
+- Fully customizable repository
+- Broadcast & Groups broadcast
+- Different Font style available.
 - Media to link feature.
 - Fully modified repo
 - Deploy To Koyeb + Heroku + Railway
@@ -95,6 +97,14 @@ time3 - To set 3rd shortner verify time
 log - To set custom log channel
 tutorial2 - To set 2nd shortner tutorial video
 tutorial3 - To set 3rd shortner tutorial video
+addpremium - To add premium users
+removepremium - To remove premium users
+myplan - To check your current plan
+plan - To check available plans
+premiumuser - To get list of premium users
+broadcast - To broadcast your message.
+gbroadcast - To broadcast in groups.
+
 ```
 </b>
 </details>
