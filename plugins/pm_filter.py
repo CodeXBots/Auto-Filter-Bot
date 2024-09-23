@@ -27,6 +27,8 @@ CAP = {}
 
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_search(client, message):
+    if message.text.startswith("/"):
+        return 
     await message.reply_text("<b>⚠️ ꜱᴏʀʀʏ ɪ ᴄᴀɴ'ᴛ ᴡᴏʀᴋ ɪɴ ᴘᴍ</b>")
     
 @Client.on_message(filters.group & filters.text & filters.incoming)
