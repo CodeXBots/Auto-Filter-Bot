@@ -33,8 +33,9 @@
 - Different Font available.
 - Media to link feature.
 - Fully modified repo
-- Deploy To Koyeb + Heroku + Railway.
-- Developer Service 24x7.
+- Deploy To Koyeb + Heroku + Railway
+- Developer Service 24x7
+- And many more... 
 </details>
 
 
