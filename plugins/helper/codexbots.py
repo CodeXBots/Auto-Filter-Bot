@@ -1,5 +1,4 @@
-# © To it's respective owner 🤨
-# I just found this code in telegram I don't know it's origin 
+# © Silicon-Developer
 
 import os, asyncio, requests
 from pyrogram import Client, filters
