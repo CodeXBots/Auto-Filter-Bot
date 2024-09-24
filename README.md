@@ -148,7 +148,7 @@ gbroadcast - To broadcast in groups.
 
 💘 Base Repo Credit [Eva Maria](https://telegram.me/TeamEvamaria)
 
-💖 And Thank You So Much To All Who Help In This Journey.
+💖 [Silicon](https://github.com/Silicon-Developer) for web app feature.
 </details>
 
 ### 💕 CONTACT DEVELOPER
