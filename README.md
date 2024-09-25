@@ -29,6 +29,8 @@
 - Set custom file caption
 - stream/Download features for premium users.
 - Auto delete
+- You can On/Off your pm search
+- Web-App feature.
 - Language feature.
 - Fully customizable repository
 - Broadcast & Groups broadcast
