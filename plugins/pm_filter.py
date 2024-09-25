@@ -26,7 +26,7 @@ FILES_ID = {}
 CAP = {}
 
 
-@Client.on_message(filters.text & filters.incoming)
+@Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_search(client, message):
     if PM_SEARCH:
         await auto_filter(client, message)  
