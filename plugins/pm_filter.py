@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script
 import pyrogram
-from info import MAX_BTN, BIN_CHANNEL, USERNAME, URL, IS_VERIFY, ADMINS, LANGUAGES, AUTH_CHANNEL, SUPPORT_GROUP, IMDB, IMDB_TEMPLATE, LOG_CHANNEL, LOG_VR_CHANNEL, QR_CODE, DELETE_TIME
+from info import MAX_BTN, BIN_CHANNEL, USERNAME, URL, IS_VERIFY, ADMINS, LANGUAGES, AUTH_CHANNEL, SUPPORT_GROUP, IMDB, IMDB_TEMPLATE, LOG_CHANNEL, LOG_VR_CHANNEL, QR_CODE, DELETE_TIME, PM_SEARCH
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InputMediaPhoto, ChatPermissions, WebAppInfo 
 from pyrogram import Client, filters, enums
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid, ChatAdminRequired
