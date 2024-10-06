@@ -1,9 +1,9 @@
 pyrofork==2.3.43
 tgcrypto
-pymongo[srv]==3.12.3
-motor==2.5.1
-marshmallow==3.14.1
-umongo==3.0.1
+pymongo>=4.5
+motor>=3.0.0
+marshmallow
+umongo
 git+https://github.com/Joelkb/cinemagoer
 Heroku3
 search_engine_parser
@@ -17,7 +17,7 @@ ujson
 pyshorteners
 datetime
 pytz
-dnspython==2.3.0
+dnspython
 aiohttp
 python-math
 Pillow
