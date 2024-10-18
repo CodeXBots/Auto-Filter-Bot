@@ -113,7 +113,7 @@ gbroadcast - To broadcast in groups.
 
 ### 📶 DEPLOYEMENT
 <details>
-<summary><b>Tap On Me For Deply</summary>
+<summary><b>Tap On Me For Deploy</summary>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
