@@ -24,17 +24,20 @@
 - streaming feature.
 - Advance spell check.
 - Set Custom IMDB template
+- You can delete files by names
 - No shortlinks for premium users
 - Set custom Log channel
 - Set custom file caption
 - stream/Download features for premium users.
 - Auto delete
+- You can delete all files from Database.
 - You can On/Off your pm search
 - Web-App feature.
 - Language feature.
 - Fully customizable repository
 - Broadcast & Groups broadcast
 - Different Font style available.
+- Channel for files delete.
 - Media to link feature.
 - Fully modified repo
 - Deploy To Koyeb + Heroku + Railway
@@ -73,6 +76,7 @@
 - `THREE_VERIFY_GAP` : Time in seconds for your 3rd shortner.
 - `SUPPORT_GROUP` : Your support group ID
 - `AUTH_CHANNEL` : Your force sub channel ID
+- `DELETE_CHANNELS` : Your files delete channel ID
 </details>
 </b>
 
@@ -106,7 +110,8 @@ plan - To check available plans
 premiumuser - To get list of premium users
 broadcast - To broadcast your message.
 gbroadcast - To broadcast in groups.
-
+deleteall - To delete all files from Database
+deletefiles - To delete files by their names
 ```
 </b>
 </details>
