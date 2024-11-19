@@ -57,7 +57,7 @@ LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
 auth_channel = environ.get('AUTH_CHANNEL', '-1002343606654')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', ''))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 'https://t.me/movietvshow001'))
 
 # bot settings
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
