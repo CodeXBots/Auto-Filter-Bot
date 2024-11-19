@@ -1,18 +1,15 @@
-from pyrogram import Client, __version__, filters
-from pyrogram.raw.all import layer
+from pyrogram import Client, __version__
 from database.ia_filterdb import Media
 from database.users_chats_db import db
 from info import API_ID, API_HASH, ADMINS, BOT_TOKEN, LOG_CHANNEL, PORT, SUPPORT_GROUP
 from utils import temp
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
-from Script import script 
 from datetime import date, datetime 
 import datetime
 import pytz
 from aiohttp import web
 from plugins import web_server, check_expired_premium
-import asyncio
 import time
 
 class Bot(Client):

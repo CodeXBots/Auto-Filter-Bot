@@ -6,9 +6,9 @@ from database.users_chats_db import db
 from database.ia_filterdb import Media, get_files_db_size
 from utils import get_size, temp
 from Script import script
-from datetime import datetime
 import psutil
 import time
+import os
 
 @Client.on_message(filters.new_chat_members & filters.group)
 async def save_group(bot, message):
