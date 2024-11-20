@@ -1,12 +1,10 @@
 # © CodeXBots (Rahul)
-from datetime import timedelta
-from asyncio import sleep 
 import pytz
-import datetime, time
+import datetime
 import asyncio
 from info import ADMINS, USERNAME, LOG_CHANNEL, QR_CODE
 from Script import script 
-from utils import get_seconds, get_status, temp
+from utils import get_seconds
 from database.users_chats_db import db 
 from pyrogram import Client, filters 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
