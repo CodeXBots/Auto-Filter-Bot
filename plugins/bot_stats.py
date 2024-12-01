@@ -21,7 +21,7 @@ async def save_group(bot, message):
             await bot.send_message(LOG_CHANNEL, script.NEW_GROUP_TXT.format(message.chat.title, message.chat.id, message.chat.username, group_link, total, user), disable_web_page_preview=True)  
             await db.add_chat(message.chat.id, message.chat.title)
             btn = [[
-                InlineKeyboardButton('🦸‍♀️  sᴜᴘᴘᴏʀᴛ  🦸‍♀️', url="https://telegram.me/CodeXSupport")
+                InlineKeyboardButton('🦸‍♀️  sᴜᴘᴘᴏʀᴛ  🦸‍♀️', url="https://telegram.me/TechifySupport")
             ]]
             reply_markup=InlineKeyboardMarkup(btn)
             await bot.send_message(
