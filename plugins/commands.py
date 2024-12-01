@@ -1,4 +1,4 @@
-# © CodeXBots (Rahul)
+# © TechifyBots (Rahul)
 import requests
 import random
 import asyncio
@@ -458,7 +458,7 @@ async def set_shortner(c, m):
     try:
         URL = m.command[1]
         API = m.command[2]
-        resp = requests.get(f'https://{URL}/api?api={API}&url=https://telegram.me/MovieVillaYT').json()
+        resp = requests.get(f'https://{URL}/api?api={API}&url=https://telegram.me/RahulReviewsYT').json()
         if resp['status'] == 'success':
             SHORT_LINK = resp['shortenedUrl']
         await save_group_settings(grp_id, 'shortner', URL)
@@ -493,7 +493,7 @@ async def set_shortner_2(c, m):
     try:
         URL = m.command[1]
         API = m.command[2]
-        resp = requests.get(f'https://{URL}/api?api={API}&url=https://telegram.me/NobiDeveloperr').json()
+        resp = requests.get(f'https://{URL}/api?api={API}&url=https://telegram.me/TechifyBots').json()
         if resp['status'] == 'success':
             SHORT_LINK = resp['shortenedUrl']
         await save_group_settings(grp_id, 'shortner_two', URL)
@@ -638,7 +638,7 @@ async def set_shortner_3(c, m):
     try:
         URL = m.command[1]
         API = m.command[2]
-        resp = requests.get(f'https://{URL}/api?api={API}&url=https://youtube.com/@NobiDeveloper').json()
+        resp = requests.get(f'https://{URL}/api?api={API}&url=https://youtube.com/@RahulReviews').json()
         if resp['status'] == 'success':
             SHORT_LINK = resp['shortenedUrl']
         await save_group_settings(grp_id, 'shortner_three', URL)
