@@ -1,4 +1,4 @@
-# © CodeXBots (Rahul)
+# © TechifyBots (Rahul)
 import asyncio
 import re
 import math
