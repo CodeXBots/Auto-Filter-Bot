@@ -78,7 +78,6 @@
 - `AUTH_CHANNEL` : Your force sub channel ID
 - `DELETE_CHANNELS` : Your files delete channel ID
 </details>
-</b>
 
 ### 😍 COMMANDS
 
