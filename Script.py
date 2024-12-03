@@ -122,7 +122,7 @@ User - {}"""
 
 ›› sᴛᴇᴘ 𝟺 : ɴᴏᴡ ꜱᴇᴛ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ, ᴛᴜᴛᴏʀɪᴀʟ, ꜰꜱᴜʙ ᴀɴᴅ ʟᴏɢ ᴄʜᴀɴɴᴇʟ.
 
-›› sᴛᴇᴘ 𝟻 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href='https://github.com/CodeXBots/Auto-Filter-Bot/blob/main/README.md'>ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ</a>.
+›› sᴛᴇᴘ 𝟻 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href='https://github.com/TechifyBots/Auto-Filter-Bot/blob/main/README.md'>ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ</a>.
 
 ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴠᴀʟᴜᴇꜱ ʙʏ /ginfo ᴄᴏᴍᴍᴀɴᴅ.
 
