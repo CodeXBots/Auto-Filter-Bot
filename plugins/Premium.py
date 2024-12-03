@@ -1,4 +1,4 @@
-# © CodeXBots (Rahul)
+# © TechifyBots (Rahul)
 import pytz
 import datetime
 import asyncio
