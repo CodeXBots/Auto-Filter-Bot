@@ -52,7 +52,7 @@ async def upload_command(client, message):
         print(f"Error removing file: {error}")
 
     await uploading_message.delete()
-    codexbots=await message.reply_photo(
+    techifybots=await message.reply_photo(
         photo=f'{url}',
         caption=f"<b>ʏᴏᴜʀ ᴄʟᴏᴜᴅ ʟɪɴᴋ ᴄᴏᴍᴘʟᴇᴛᴇᴅ 👇</b>\n\n𝑳𝒊𝒏𝒌 :-\n\n<code>{url}</code>\n\n<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ - @TechifyBots</b>",
         #disable_web_page_preview=True,
@@ -64,4 +64,4 @@ async def upload_command(client, message):
         ]])
    )
     await asyncio.sleep(120)
-    await codexbots.delete()
+    await techifybots.delete()
