@@ -745,7 +745,7 @@ async def auto_filter(client, msg, spoll=False):
                 await message.reply_text(cap + links + del_msg, parse_mode=enums.ParseMode.HTML, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
     else:
         if message.chat.id == SUPPORT_GROUP:
-            buttons = [[InlineKeyboardButton('✧ ᴛᴀᴋᴇ ꜰɪʟᴇ ꜰʀᴏᴍ ʜᴇʀᴇ ✧', url="https://telegram.me/AllRequestGroups")]]
+            buttons = [[InlineKeyboardButton('✧ ᴛᴀᴋᴇ ꜰɪʟᴇ ꜰʀᴏᴍ ʜᴇʀᴇ ✧', url="https://telegram.me/TechifySupport")]]
             d = await message.reply(text=f"<b>{message.from_user.mention},</b>\n\n({total_results}) ʀᴇsᴜʟᴛ ᴀʀᴇ ꜰᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ꜰᴏʀ ʏᴏᴜʀ sᴇᴀʀᴄʜ [{search}]\n\n", reply_markup=InlineKeyboardMarkup(buttons))
             await asyncio.sleep(120)
             await message.delete()
